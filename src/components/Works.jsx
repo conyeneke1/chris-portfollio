@@ -6,6 +6,7 @@ import PricingPage from "../assets/Works/pricing-page.png";
 import Calculator from "../assets/Works/calculator.png";
 import FrontendBootcamp from "../assets/Works/frontend-bootcamp.png";
 import ReviewApp from "../assets/Works/review-app.png";
+import ChrisBlog from "../assets/Works/chris-blog.png";
 
 const Works = () => {
   return (
@@ -59,6 +60,12 @@ const Works = () => {
             demo="https://calculator-chris.netlify.app"
             code="https://github.com/conyeneke1/calculator"
             img={Calculator}
+          />
+          <Project
+            title="Blog"
+            demo="soundz-blog.netlify.app"
+            code="https://github.com/conyeneke1/chris-blog"
+            img={ChrisBlog}
           />
         </div>
       </div>
