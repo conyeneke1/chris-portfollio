@@ -1,12 +1,6 @@
 import React, { useState } from "react";
 import logo from "../assets/portfolio-logo1.png";
-import {
-  FaBars,
-  FaTimes,
-  FaGithub,
-  FaLinkedin,
-  FaFacebook,
-} from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-scroll";
@@ -128,7 +122,8 @@ const Navbar = () => {
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
               <a
                 className="flex w-full justify-between align-center text-gray-300"
-                target="_black"
+                target="_blank"
+                rel="noreferrer"
                 href="https://www.linkedin.com/feed/"
               >
                 Linkedin <FaLinkedin size={30} />
@@ -137,7 +132,8 @@ const Navbar = () => {
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
               <a
                 className="flex w-full justify-between align-center text-gray-300"
-                target="_black"
+                target="_blank"
+                rel="noreferrer"
                 href="https://github.com/conyeneke1"
               >
                 Github <FaGithub size={30} />
@@ -146,7 +142,8 @@ const Navbar = () => {
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fb260]">
               <a
                 className="flex w-full justify-between align-center text-gray-300"
-                target="_black"
+                target="_blank"
+                rel="noreferrer"
                 href="https://mail.google.com/mail/u/0/#inbox"
               >
                 Email <HiOutlineMail size={30} />
@@ -155,7 +152,8 @@ const Navbar = () => {
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
               <a
                 className="flex w-full justify-between align-center text-gray-300"
-                target="_black"
+                target="_blank"
+                rel="noreferrer"
                 href="https://docs.google.com/document/d/e/2PACX-1vRiTdhNXq3Gd_H14sSWcN3mID6hpa6mYkTBzJVCjtJv5sWN3H97h38tCzZNSIE6LCDAI5bvFCBN-AfZ/pub"
               >
                 Resume <BsFillPersonLinesFill size={30} />
