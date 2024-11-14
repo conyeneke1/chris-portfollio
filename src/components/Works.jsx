@@ -3,6 +3,7 @@ import Project from "./Project";
 import TwitterClone from "../assets/Works/twitter-clone.png";
 import YoutubeClone from "../assets/Works/youtube-clone.png";
 import PricingPage from "../assets/Works/pricing-page.png";
+import AppleClone from "../assets/Works/AppleClone.png"
 import Calculator from "../assets/Works/calculator.png";
 import FrontendBootcamp from "../assets/Works/frontend-bootcamp.png";
 import ReviewApp from "../assets/Works/review-app.png";
@@ -26,10 +27,10 @@ const Works = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid item */}
           <Project
-            title="Twitter Clone"
-            demo="https://mytwirrer.netlify.app"
-            code="https://github.com/conyeneke1/twitter-clone"
-            img={TwitterClone}
+            title="Apple Website Clone"
+            demo="https://christechiphonewebsiteclone.netlify.app"
+            code="https://github.com/conyeneke1/Apple_website"
+            img={AppleClone}
           />
           <Project
             title="YouTube Clone"
@@ -42,6 +43,12 @@ const Works = () => {
             demo="https://chrispricingpage.netlify.app"
             code="https://github.com/conyeneke1/pricingPage"
             img={PricingPage}
+          />
+          <Project
+            title="Twitter Clone"
+            demo="https://mytwirrer.netlify.app"
+            code="https://github.com/conyeneke1/twitter-clone"
+            img={TwitterClone}
           />
           <Project
             title="Frontend Bootcamp"
