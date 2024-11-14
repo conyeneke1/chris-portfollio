@@ -5,6 +5,9 @@ import Javascript from "../assets/javascript.png";
 import Reactjs from "../assets/react.png";
 import Tailwind from "../assets/tailwind.png";
 import Bootstrap from "../assets/bootstrap-logo.svg";
+import MUI from "../assets/material-ui-icon.png";
+import gsap from "../assets/gsap-icon.jpg";
+import threeJs from "../assets/three-js.png";
 import Github from "../assets/github.png";
 
 const Skills = () => {
@@ -45,6 +48,18 @@ const Skills = () => {
           <div className="shadow-md shadow-[#010c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Bootstrap} alt="HTML icon" />
             <p className="my-4">Bootstrap</p>
+          </div>
+          <div className="shadow-md shadow-[#010c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={MUI} alt="HTML icon" />
+            <p className="my-4">Material UI</p>
+          </div>
+          <div className="shadow-md shadow-[#010c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={gsap} alt="HTML icon" />
+            <p className="my-4">GSAP</p>
+          </div>
+          <div className="shadow-md shadow-[#010c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={threeJs} alt="HTML icon" />
+            <p className="my-4">Three Js</p>
           </div>
           <div className="shadow-md shadow-[#010c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Github} alt="HTML icon" />
